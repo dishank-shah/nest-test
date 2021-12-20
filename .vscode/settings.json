@@ -1,0 +1,34 @@
+{
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.editor.enablePreview": false,
+    "git.autofetch": true,
+    "window.zoomLevel": 0,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.codeActionsOnSave": { 
+        "source.organizeImports": true,
+        "editor.formatOnSave": true,
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.wordWrap": "on",
+    },
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.wordWrap": "on",
+        "editor.renderWhitespace": "all",
+        "editor.acceptSuggestionOnEnter": "off"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.formatOnSave": true,
+        "editor.wordWrap": "on",
+    },
+    "angular.experimental-ivy": true,
+}

@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    "mikael.angular-beastcode",
+    "angular.ng-template",
+    "johnpapa.angular2",
+    "infinity1207.angular2-switcher",
+    "formulahendry.auto-rename-tag",
+    "coenraads.bracket-pair-colorizer",
+    "msjsdiag.debugger-for-chrome",
+    "abusaidm.html-snippets",
+    "negokaz.live-server-preview",
+    "stringham.move-ts",
+    "eg2.vscode-npm-script",
+    "rbbit.typescript-hero",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "firsttris.vscode-jest-runner"
+  ]
+}
