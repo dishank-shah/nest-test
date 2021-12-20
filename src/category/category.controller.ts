@@ -9,12 +9,12 @@ export class CategoryController {
 
     }
     @Get()
-    getAll(): Array<CategoryDTO> {
+    getAll(): Promise<Array<CategoryDTO>> {
         return this.categoryService.getCategories();
     }
 
     @Get(':id')
-    getById(@Param('id') id: string): CategoryDTO {
+    getById(@Param('id') id: string): Promise<CategoryDTO> {
         return this.categoryService.getCategory(+id);
     }
 
