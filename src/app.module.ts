@@ -3,11 +3,11 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { CategoryController } from './category/category.controller';
-import { Category } from './category/category.entity';
 import { CategoryModule } from './category/category.module';
 import { LoggerMiddleware } from './middleware/logger.moddleware';
 import { OrderController } from './order/order.controller';
 import { OrderService } from './order/order.service';
+import { ItemModule } from './item/item.module';
 
 @Module({
   imports: [
@@ -19,9 +19,11 @@ import { OrderService } from './order/order.service';
       username: 'admin',
       password: 'admin',
       database: 'test',
-      entities: [Category],
+      //entities: [Category],
+      autoLoadEntities: true,
       synchronize: true,
     }),
+    ItemModule,
   ],
   controllers: [AppController, OrderController],
   providers: [AppService, OrderService],
